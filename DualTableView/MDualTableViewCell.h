@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface MDualTableViewCell : UITableViewCell
-
+@property (weak, nonatomic) IBOutlet UIImageView *mainImageView;
+@property (weak, nonatomic) IBOutlet UILabel *mainLabel;
++ (UINib *)nib;
+- (CGFloat)heightOfRow;
++ (CGFloat)heightOfRow;
 @end

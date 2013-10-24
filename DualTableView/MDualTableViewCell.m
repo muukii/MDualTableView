@@ -10,6 +10,10 @@
 
 @implementation MDualTableViewCell
 
++ (UINib *)nib
+{
+    return [UINib nibWithNibName:NSStringFromClass([self class]) bundle:[NSBundle mainBundle]];
+}
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -26,4 +30,13 @@
     // Configure the view for the selected state
 }
 
+- (CGFloat)heightOfRow
+{
+    return 60;
+}
+
++ (CGFloat)heightOfRow
+{
+    return 60;
+}
 @end

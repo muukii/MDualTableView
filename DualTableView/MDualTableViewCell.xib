@@ -26,6 +26,10 @@
                     </label>
                 </subviews>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="mainImageView" destination="R54-WC-vFY" id="9Qk-6J-XkS"/>
+                <outlet property="mainLabel" destination="sdt-ma-Lnf" id="CUc-BW-7De"/>
+            </connections>
         </tableViewCell>
     </objects>
 </document>
