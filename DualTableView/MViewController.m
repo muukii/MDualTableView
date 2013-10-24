@@ -8,11 +8,11 @@
 
 #import "MViewController.h"
 #import "MDualTableViewCell.h"
+
+#import "MTableView.h"
 @interface MViewController () <UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
-@property (weak, nonatomic) IBOutlet UITableView *leftTableView;
-@property (weak, nonatomic) IBOutlet UITableView *rightTableView;
-
-
+@property (weak, nonatomic) IBOutlet MLeftTableView *leftTableView;
+@property (weak, nonatomic) IBOutlet MRightTableView *rightTableView;
 
 @end
 
@@ -43,7 +43,12 @@
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 243;
+    if ([tableView isKindOfClass:[MRightTableView class]]) {
+        return 243;
+    } else if ([tableView isKindOfClass:[MLeftTableView class]]){
+        return 140;
+    }
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -51,9 +56,9 @@
     MDualTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([MDualTableViewCell class])];
     
     NSLog(@"%@",NSStringFromClass([tableView class]));
-    if ([NSStringFromClass([tableView class]) isEqualToString:NSStringFromClass([self.rightTableView class])]) {
+    if ([tableView isKindOfClass:[MRightTableView class]]) {
         cell.mainLabel.text = @"right";
-    } else if ([NSStringFromClass([tableView class]) isEqualToString:NSStringFromClass([self.leftTableView class])]){
+    } else if ([tableView isKindOfClass:[MLeftTableView class]]){
         cell.mainLabel.text = @"left";
     }
     

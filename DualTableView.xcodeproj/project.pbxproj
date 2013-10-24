@@ -23,6 +23,8 @@
 		3A647F241818913500B7FD34 /* DualTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A647F231818913500B7FD34 /* DualTableViewTests.m */; };
 		3A647F2E1818924600B7FD34 /* MDualTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A647F2D1818924600B7FD34 /* MDualTableViewCell.xib */; };
 		3A647F31181892EF00B7FD34 /* MDualTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A647F30181892EF00B7FD34 /* MDualTableViewCell.m */; };
+		3A647F341819042900B7FD34 /* MTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A647F331819042900B7FD34 /* MTableView.m */; };
+		3A647F371819064300B7FD34 /* MDribbleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A647F361819064300B7FD34 /* MDribbleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		3A647F2D1818924600B7FD34 /* MDualTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDualTableViewCell.xib; sourceTree = "<group>"; };
 		3A647F2F181892EF00B7FD34 /* MDualTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDualTableViewCell.h; sourceTree = "<group>"; };
 		3A647F30181892EF00B7FD34 /* MDualTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDualTableViewCell.m; sourceTree = "<group>"; };
+		3A647F321819042900B7FD34 /* MTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTableView.h; sourceTree = "<group>"; };
+		3A647F331819042900B7FD34 /* MTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTableView.m; sourceTree = "<group>"; };
+		3A647F351819064300B7FD34 /* MDribbleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDribbleModel.h; sourceTree = "<group>"; };
+		3A647F361819064300B7FD34 /* MDribbleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDribbleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +128,13 @@
 				3A647F0A1818913500B7FD34 /* Main.storyboard */,
 				3A647F0D1818913500B7FD34 /* MViewController.h */,
 				3A647F0E1818913500B7FD34 /* MViewController.m */,
+				3A647F321819042900B7FD34 /* MTableView.h */,
+				3A647F331819042900B7FD34 /* MTableView.m */,
 				3A647F2D1818924600B7FD34 /* MDualTableViewCell.xib */,
 				3A647F2F181892EF00B7FD34 /* MDualTableViewCell.h */,
 				3A647F30181892EF00B7FD34 /* MDualTableViewCell.m */,
+				3A647F351819064300B7FD34 /* MDribbleModel.h */,
+				3A647F361819064300B7FD34 /* MDribbleModel.m */,
 				3A647F101818913500B7FD34 /* Images.xcassets */,
 				3A647EFF1818913500B7FD34 /* Supporting Files */,
 			);
@@ -260,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A647F091818913500B7FD34 /* MAppDelegate.m in Sources */,
+				3A647F341819042900B7FD34 /* MTableView.m in Sources */,
+				3A647F371819064300B7FD34 /* MDribbleModel.m in Sources */,
 				3A647F31181892EF00B7FD34 /* MDualTableViewCell.m in Sources */,
 				3A647F051818913500B7FD34 /* main.m in Sources */,
 				3A647F0F1818913500B7FD34 /* MViewController.m in Sources */,
