@@ -24,7 +24,16 @@
 		3A647F2E1818924600B7FD34 /* MDualTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A647F2D1818924600B7FD34 /* MDualTableViewCell.xib */; };
 		3A647F31181892EF00B7FD34 /* MDualTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A647F30181892EF00B7FD34 /* MDualTableViewCell.m */; };
 		3A647F341819042900B7FD34 /* MTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A647F331819042900B7FD34 /* MTableView.m */; };
-		3A647F371819064300B7FD34 /* MDribbleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A647F361819064300B7FD34 /* MDribbleModel.m */; };
+		79C383DE181D16C600DCCEB4 /* MHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C383DD181D16C600DCCEB4 /* MHelper.m */; };
+		79C383E9181D53F900DCCEB4 /* DualTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79C383E7181D53F900DCCEB4 /* DualTableView.xcdatamodeld */; };
+		79C38436181D549600DCCEB4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C38435181D549600DCCEB4 /* CoreData.framework */; };
+		79C38443181D604700DCCEB4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C38440181D604700DCCEB4 /* Player.m */; };
+		79C38444181D604700DCCEB4 /* Shot.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C38442181D604700DCCEB4 /* Shot.m */; };
+		79C3844C181D60CB00DCCEB4 /* MBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C38447181D60CB00DCCEB4 /* MBaseModel.m */; };
+		79C3844D181D60CB00DCCEB4 /* MDribbbleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C38449181D60CB00DCCEB4 /* MDribbbleModel.m */; };
+		79C3844E181D60CB00DCCEB4 /* MModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C3844B181D60CB00DCCEB4 /* MModelHelper.m */; };
+		79C38451181D612500DCCEB4 /* MDribbbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C38450181D612500DCCEB4 /* MDribbbleManager.m */; };
+		79C38454181D633000DCCEB4 /* MManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C38453181D633000DCCEB4 /* MManagedObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,9 +70,25 @@
 		3A647F2F181892EF00B7FD34 /* MDualTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDualTableViewCell.h; sourceTree = "<group>"; };
 		3A647F30181892EF00B7FD34 /* MDualTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDualTableViewCell.m; sourceTree = "<group>"; };
 		3A647F321819042900B7FD34 /* MTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTableView.h; sourceTree = "<group>"; };
-		3A647F331819042900B7FD34 /* MTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTableView.m; sourceTree = "<group>"; };
-		3A647F351819064300B7FD34 /* MDribbleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDribbleModel.h; sourceTree = "<group>"; };
-		3A647F361819064300B7FD34 /* MDribbleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDribbleModel.m; sourceTree = "<group>"; };
+		3A647F331819042900B7FD34 /* MTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTableView.m; path = DualTableView/MTableView.m; sourceTree = "<group>"; };
+		79C383DC181D16C600DCCEB4 /* MHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHelper.h; sourceTree = "<group>"; };
+		79C383DD181D16C600DCCEB4 /* MHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHelper.m; sourceTree = "<group>"; };
+		79C383E8181D53F900DCCEB4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		79C38435181D549600DCCEB4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79C3843F181D604700DCCEB4 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		79C38440181D604700DCCEB4 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		79C38441181D604700DCCEB4 /* Shot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shot.h; sourceTree = "<group>"; };
+		79C38442181D604700DCCEB4 /* Shot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shot.m; sourceTree = "<group>"; };
+		79C38446181D60CB00DCCEB4 /* MBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBaseModel.h; sourceTree = "<group>"; };
+		79C38447181D60CB00DCCEB4 /* MBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBaseModel.m; sourceTree = "<group>"; };
+		79C38448181D60CB00DCCEB4 /* MDribbbleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDribbbleModel.h; sourceTree = "<group>"; };
+		79C38449181D60CB00DCCEB4 /* MDribbbleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDribbbleModel.m; sourceTree = "<group>"; };
+		79C3844A181D60CB00DCCEB4 /* MModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MModelHelper.h; sourceTree = "<group>"; };
+		79C3844B181D60CB00DCCEB4 /* MModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MModelHelper.m; sourceTree = "<group>"; };
+		79C3844F181D612500DCCEB4 /* MDribbbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDribbbleManager.h; sourceTree = "<group>"; };
+		79C38450181D612500DCCEB4 /* MDribbbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDribbbleManager.m; sourceTree = "<group>"; };
+		79C38452181D633000DCCEB4 /* MManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MManagedObject.h; sourceTree = "<group>"; };
+		79C38453181D633000DCCEB4 /* MManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MManagedObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C38436181D549600DCCEB4 /* CoreData.framework in Frameworks */,
 				3A647EFB1818913500B7FD34 /* CoreGraphics.framework in Frameworks */,
 				3A647EFD1818913500B7FD34 /* UIKit.framework in Frameworks */,
 				3A647EF91818913500B7FD34 /* Foundation.framework in Frameworks */,
@@ -97,6 +123,7 @@
 				3A647F1D1818913500B7FD34 /* DualTableViewTests */,
 				3A647EF71818913500B7FD34 /* Frameworks */,
 				3A647EF61818913400B7FD34 /* Products */,
+				3A647F331819042900B7FD34 /* MTableView.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +139,7 @@
 		3A647EF71818913500B7FD34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79C38435181D549600DCCEB4 /* CoreData.framework */,
 				3A647EF81818913500B7FD34 /* Foundation.framework */,
 				3A647EFA1818913500B7FD34 /* CoreGraphics.framework */,
 				3A647EFC1818913500B7FD34 /* UIKit.framework */,
@@ -123,18 +151,19 @@
 		3A647EFE1818913500B7FD34 /* DualTableView */ = {
 			isa = PBXGroup;
 			children = (
+				79C3843D181D604700DCCEB4 /* Classes */,
+				79C383E5181D53F900DCCEB4 /* Resources */,
 				3A647F071818913500B7FD34 /* MAppDelegate.h */,
 				3A647F081818913500B7FD34 /* MAppDelegate.m */,
+				79C383DC181D16C600DCCEB4 /* MHelper.h */,
+				79C383DD181D16C600DCCEB4 /* MHelper.m */,
 				3A647F0A1818913500B7FD34 /* Main.storyboard */,
 				3A647F0D1818913500B7FD34 /* MViewController.h */,
 				3A647F0E1818913500B7FD34 /* MViewController.m */,
 				3A647F321819042900B7FD34 /* MTableView.h */,
-				3A647F331819042900B7FD34 /* MTableView.m */,
 				3A647F2D1818924600B7FD34 /* MDualTableViewCell.xib */,
 				3A647F2F181892EF00B7FD34 /* MDualTableViewCell.h */,
 				3A647F30181892EF00B7FD34 /* MDualTableViewCell.m */,
-				3A647F351819064300B7FD34 /* MDribbleModel.h */,
-				3A647F361819064300B7FD34 /* MDribbleModel.m */,
 				3A647F101818913500B7FD34 /* Images.xcassets */,
 				3A647EFF1818913500B7FD34 /* Supporting Files */,
 			);
@@ -168,6 +197,59 @@
 				3A647F201818913500B7FD34 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79C383E5181D53F900DCCEB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79C383E6181D53F900DCCEB4 /* CoreData */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79C383E6181D53F900DCCEB4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				79C383E7181D53F900DCCEB4 /* DualTableView.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		79C3843D181D604700DCCEB4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79C38445181D60CB00DCCEB4 /* Models */,
+				79C3843E181D604700DCCEB4 /* Objects */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		79C3843E181D604700DCCEB4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				79C38452181D633000DCCEB4 /* MManagedObject.h */,
+				79C38453181D633000DCCEB4 /* MManagedObject.m */,
+				79C3843F181D604700DCCEB4 /* Player.h */,
+				79C38440181D604700DCCEB4 /* Player.m */,
+				79C38441181D604700DCCEB4 /* Shot.h */,
+				79C38442181D604700DCCEB4 /* Shot.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		79C38445181D60CB00DCCEB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79C38446181D60CB00DCCEB4 /* MBaseModel.h */,
+				79C38447181D60CB00DCCEB4 /* MBaseModel.m */,
+				79C3844A181D60CB00DCCEB4 /* MModelHelper.h */,
+				79C3844B181D60CB00DCCEB4 /* MModelHelper.m */,
+				79C3844F181D612500DCCEB4 /* MDribbbleManager.h */,
+				79C38450181D612500DCCEB4 /* MDribbbleManager.m */,
+				79C38448181D60CB00DCCEB4 /* MDribbbleModel.h */,
+				79C38449181D60CB00DCCEB4 /* MDribbbleModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,11 +352,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A647F091818913500B7FD34 /* MAppDelegate.m in Sources */,
+				79C383E9181D53F900DCCEB4 /* DualTableView.xcdatamodeld in Sources */,
 				3A647F341819042900B7FD34 /* MTableView.m in Sources */,
-				3A647F371819064300B7FD34 /* MDribbleModel.m in Sources */,
+				79C38451181D612500DCCEB4 /* MDribbbleManager.m in Sources */,
+				79C3844E181D60CB00DCCEB4 /* MModelHelper.m in Sources */,
 				3A647F31181892EF00B7FD34 /* MDualTableViewCell.m in Sources */,
+				79C383DE181D16C600DCCEB4 /* MHelper.m in Sources */,
 				3A647F051818913500B7FD34 /* main.m in Sources */,
 				3A647F0F1818913500B7FD34 /* MViewController.m in Sources */,
+				79C3844D181D60CB00DCCEB4 /* MDribbbleModel.m in Sources */,
+				79C3844C181D60CB00DCCEB4 /* MBaseModel.m in Sources */,
+				79C38454181D633000DCCEB4 /* MManagedObject.m in Sources */,
+				79C38444181D604700DCCEB4 /* Shot.m in Sources */,
+				79C38443181D604700DCCEB4 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +573,7 @@
 				3A647F291818913500B7FD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A647F2A1818913500B7FD34 /* Build configuration list for PBXNativeTarget "DualTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -491,8 +582,22 @@
 				3A647F2C1818913500B7FD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79C383E7181D53F900DCCEB4 /* DualTableView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79C383E8181D53F900DCCEB4 /* Model.xcdatamodel */,
+			);
+			currentVersion = 79C383E8181D53F900DCCEB4 /* Model.xcdatamodel */;
+			path = DualTableView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3A647EED1818913400B7FD34 /* Project object */;
 }
