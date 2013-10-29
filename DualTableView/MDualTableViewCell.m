@@ -30,6 +30,13 @@
     // Configure the view for the selected state
 }
 
+- (void)prepareForReuse
+{
+    [super prepareForReuse];
+    self.mainImageView.image = [UIImage imageWithData:nil];
+    self.mainLabel.text = @"";
+}
+
 - (CGFloat)heightOfRow
 {
     return 60;
